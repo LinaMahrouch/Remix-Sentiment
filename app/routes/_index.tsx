@@ -14,17 +14,17 @@ export default function Index() {
   };
   return (
     <div className=" text-white">
-      <div className="py-10 md:py-20 text-center mx-auto px-4">
+      <div className="py-10 md:py-15 text-center mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-center mb-2">
           <h1 className="text-2xl md:text-4xl font-bold"> Welcome to Remix </h1>
           <img src="/images/cd.png" alt="Remix Logo" className="h-8 md:h-12 mx-2 my-2" />
           <h1 className="text-2xl md:text-4xl font-bold">+ Hugging Face</h1>
           <img src="/images/hf-logo.png" alt="Hugging Face Logo" className="h-8 md:h-12 mx-2 my-2" />
         </div>
-        <h2 className="text-xl md:text-3xl font-bold">Transformers Template</h2>
+        <h2 className="text-xl md:text-3xl font-bold">Transformers.js Template</h2>
       </div>
 
-      <div className="container mx-auto mt-2 p-4">
+      <div className="container mx-auto  p-4">
         <div className="max-w-lg mx-auto bg-zinc-800 p-6 rounded-lg shadow-md">
           <label htmlFor="textInput" className="block mb-2 text-sm font-medium text-gray-300">Enter text to classify</label>
           <input
