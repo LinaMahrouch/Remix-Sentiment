@@ -9,7 +9,7 @@ export const loader = async ({ request }: { request: Request }) => {
   const text = url.searchParams.get('text');
 
   if (!text) {
-    return json({ error: 'Text is required' }, { status: 400 });
+    return json({ error: 'Text parameter is required' }, { status: 400 });
   }
 
   if (!classifier) {
